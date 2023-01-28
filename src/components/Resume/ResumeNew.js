@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/ramzeta/byron-web-IT/raw/main/src/Assets/Ramiro-Perez-Sanz.pdf";
+  "https://raw.githubusercontent.com/ramzeta/byron-web-IT/11835d812df83c763d8d39c927b89a732d2b261e/src/Assets/Ramiro-Perez-Sanz.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
