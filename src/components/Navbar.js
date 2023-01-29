@@ -6,12 +6,12 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { ImBubbles3 } from "react-icons/im";
+import { SiAboutdotme } from "react-icons/si"
 import {
   AiFillStar,
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiOutlineProject,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -65,7 +65,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <SiAboutdotme style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
@@ -75,7 +75,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <AiOutlineProject
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
@@ -94,11 +94,11 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://byron-web-it.vercel.app/"
+                href="https://discord.gg/U5xytAbjxb"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBubbles3 style={{ marginBottom: "2px" }} /> Comunidad
               </Nav.Link>
             </Nav.Item>
 
