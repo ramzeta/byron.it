@@ -98,7 +98,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBubbles3 style={{ marginBottom: "2px" }} /> Comunidad
+                <ImBubbles3 style={{ marginBottom: "2px" }} /> Comunity
               </Nav.Link>
             </Nav.Item>
 
