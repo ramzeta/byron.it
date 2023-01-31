@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Ramiro Perez</span>
+            Hi Everyone, I am <span className="purple">Ramiro Perez </span>
             from <span className="purple"> Ibiza, España.</span>
             <br />
 
@@ -25,10 +25,10 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight/>Do sport
+              <ImPointRight/> Do sport
             </li>
             <li className="about-activity">
-              <ImPointRight/>Learn new cultures
+              <ImPointRight/> Learn new cultures
             </li>
           </ul>
 
