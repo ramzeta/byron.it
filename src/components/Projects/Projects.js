@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import dashboard from "../../Assets/Projects/dashboard.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import byronchat from "../../Assets/Projects/byron-chat.png";
@@ -83,6 +83,15 @@ function Projects() {
               title="Byron Chat"
               description="Chat with google authentication, with just one step you can start chatting. You can create your own room and customize it."
               ghLink="https://github.com/ramzeta/byron-chat"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dashboard}
+              isBlog={false}
+              title="Byron Dashboard"
+              description="This is a navigalbe menu with react , react-botstrap and react-router-dom, an example to have a side navigator."
+              ghLink="https://github.com/ramzeta/dashboard-react"
             />
           </Col>
 
