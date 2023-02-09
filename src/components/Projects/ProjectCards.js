@@ -17,7 +17,7 @@ function ProjectCards(props) {
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
-        
+
         {"\n"}
         {"\n"}
 
