@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import dashboard from "../../Assets/Projects/dashboard.png";
 import byronchat from "../../Assets/Projects/byron-chat.png";
-
+import antispyware from "../../Assets/Projects/antispyware.png"
 
 function Projects() {
   return (
@@ -36,7 +36,16 @@ function Projects() {
               ghLink="https://github.com/ramzeta/dashboard-react"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={antispyware}
+              isBlog={false}
+              title="Byron Anti Spyware"
+              description="Byron Antispyware is a python script that shows you through the console the most common places where spy viruses can hide, it is not 100% 
+              functional since it needs to read licenses with a wintrust windows library, but it is a good start! join up!"
+              ghLink="https://github.com/ramzeta/antispyware"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
