@@ -4,8 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import dashboard from "../../Assets/Projects/dashboard.png";
 import byronchat from "../../Assets/Projects/byron-chat.png";
-import antispyware from "../../Assets/Projects/antispyware.png"
-import inmovip from "../../Assets/Projects/inmovip.png"
+import antispyware from "../../Assets/Projects/antispyware.png";
+import inmovip from "../../Assets/Projects/inmovip.png";
+import integracion from "../../Assets/Projects/integracion.png";
+
 
 function Projects() {
   return (
@@ -56,6 +58,15 @@ function Projects() {
               description="Web page with angular about a real estate agency,
                with this web page you can easily see characteristics and ways to improve the visibility of profitability for real estate investments"
               ghLink="https://inmo-vip.vercel.app/es"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={integracion}
+              isBlog={false}
+              title="Docker"
+              description="In this project, I implemented a continuous integration workflow using Docker to package and deploy web applications built on Node.js. Also, I used Jenkins as an automation tool to facilitate continuous build and deployment."
+              ghLink="https://github.com/ramzeta/IntegracionContinua"
             />
           </Col>
       </Container>
