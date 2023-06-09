@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import dashboard from "../../Assets/Projects/dashboard.png";
 import byronchat from "../../Assets/Projects/byron-chat.png";
 import antispyware from "../../Assets/Projects/antispyware.png"
+import inmovip from "../../Assets/Projects/inmovip.png"
 
 function Projects() {
   return (
@@ -47,6 +48,16 @@ function Projects() {
             />
           </Col>
         </Row>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={inmovip}
+              isBlog={false}
+              title="Inmovip"
+              description="Web page with angular about a real estate agency,
+               with this web page you can easily see characteristics and ways to improve the visibility of profitability for real estate investments"
+              ghLink="https://inmo-vip.vercel.app/es"
+            />
+          </Col>
       </Container>
     </Container>
   );
