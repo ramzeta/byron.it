@@ -50,6 +50,7 @@ function Projects() {
             />
           </Col>
         </Row>
+        <Row>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={inmovip}
@@ -69,6 +70,8 @@ function Projects() {
               ghLink="https://github.com/ramzeta/IntegracionContinua"
             />
           </Col>
+        </Row>
+
       </Container>
     </Container>
   );
