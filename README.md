@@ -10,35 +10,44 @@ This project was built using these technologies.
 - VsCode
 - Vercel
 
-## Features
+# Proyecto React Dockerizado
 
-**📖 Multi-Page Layout**
+Este es un proyecto React dockerizado que te permite empaquetar y ejecutar tu aplicación React en un contenedor de Docker.
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## Pasos para dockerizar el proyecto
 
-**📱 Fully Responsive**
+Sigue los pasos a continuación para dockerizar tu proyecto React:
 
-## Getting Started
+### Paso 1: Preparar el proyecto React
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+Asegúrate de que tu proyecto React esté completo y funcionando correctamente en tu entorno local.
 
-## 🛠 Installation and Setup Instructions
+### Paso 2: Crear un archivo Dockerfile
 
-1. Installation: `npm install`
+En el directorio raíz de tu proyecto, crea un archivo llamado `Dockerfile` y añade el siguiente contenido:
 
-2. In the project directory, you can run: `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+Este Dockerfile utiliza dos etapas: una para construir la aplicación React y otra para servir los archivos estáticos generados.
 
-## Usage Instructions
+### Paso 3: Construir la imagen de Docker
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+Abre una terminal en el directorio raíz de tu proyecto y ejecuta el siguiente comando para construir la imagen de Docker:
 
-### Show your support
+docker build -t nombre_de_la_imagen .
 
-Give a ⭐ if you like this website!
 
-<a href="https://www.buymeacoffee.com/ramzeta.zip" target="_blank"><img src="https://www.buymeacoffee.com/ramzeta.zip" alt="" height= "60px" width= "217px" ></a>
+Reemplaza `nombre_de_la_imagen` con el nombre que desees darle a tu imagen Docker. Asegúrate de incluir el punto (`.`) al final del comando.
+
+### Paso 4: Ejecutar el contenedor de Docker
+
+Una vez que se haya construido la imagen de Docker, ejecuta un contenedor basado en esa imagen utilizando el siguiente comando:
+
+docker run -p 80:80 nombre_de_la_imagen
+
+
+Esto ejecutará un contenedor basado en la imagen que creaste y mapeará el puerto 80 del contenedor al puerto 80 de tu máquina local.
+
+Ahora podrás acceder a tu aplicación React en `http://localhost` en tu navegador web.
+
+¡Eso es todo! Ahora tienes tu proyecto React dockerizado y listo para ser distribuido o ejecutado en cualquier entorno compatible con Docker.
+
