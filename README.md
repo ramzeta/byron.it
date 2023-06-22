@@ -9,6 +9,7 @@ This project was built using these technologies.
 - CSS3
 - VsCode
 - Vercel
+- Docker
 
 # Proyecto React Dockerizado
 
