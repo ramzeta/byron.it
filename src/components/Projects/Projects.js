@@ -7,7 +7,7 @@ import byronchat from "../../Assets/Projects/byron-chat.png";
 import antispyware from "../../Assets/Projects/antispyware.png";
 import inmovip from "../../Assets/Projects/inmovip.png";
 import integracion from "../../Assets/Projects/integracion.png";
-import dragonballApp from "../../Assets/Projects/dragonballApp"
+import dragonballApp from "../../Assets/Projects/dragonballApp.png"
 
 function Projects() {
   return (
