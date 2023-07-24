@@ -74,7 +74,7 @@ function Projects() {
             <ProjectCard
               imgPath={dragonballApp}
               isBlog={false}
-              title="Docker"
+              title="Search React"
               description="
               A simple app that uses parent and child components and handles states with a custom hook, something simple and fun."
               ghLink="https://github.com/ramzeta/gifApp-react18/tree/main"
