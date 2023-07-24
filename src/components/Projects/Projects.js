@@ -7,7 +7,7 @@ import byronchat from "../../Assets/Projects/byron-chat.png";
 import antispyware from "../../Assets/Projects/antispyware.png";
 import inmovip from "../../Assets/Projects/inmovip.png";
 import integracion from "../../Assets/Projects/integracion.png";
-
+import dragonballApp from "../../Assets/Projects/dragonballApp"
 
 function Projects() {
   return (
@@ -70,8 +70,17 @@ function Projects() {
               ghLink="https://github.com/ramzeta/IntegracionContinua"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dragonballApp}
+              isBlog={false}
+              title="Docker"
+              description="
+              A simple app that uses parent and child components and handles states with a custom hook, something simple and fun."
+              ghLink="https://github.com/ramzeta/gifApp-react18/tree/main"
+            />
+          </Col>
         </Row>
-
       </Container>
     </Container>
   );
