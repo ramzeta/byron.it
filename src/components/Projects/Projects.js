@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import dashboard from "../../Assets/Projects/dashboard.png";
-import byronchat from "../../Assets/Projects/byron-chat.png";
 import antispyware from "../../Assets/Projects/antispyware.png";
 import inmovip from "../../Assets/Projects/inmovip.png";
 import integracion from "../../Assets/Projects/integracion.png";
 import dragonballApp from "../../Assets/Projects/dragonballApp.png"
+import siem from "../../Assets/Projects/siem.png"
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={byronchat}
+              imgPath={siem}
               isBlog={false}
               title="Byron SIEM"
               description="Docker Compose configuration for the Services Stack of a SIEM."
