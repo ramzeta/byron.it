@@ -17,7 +17,7 @@ function Footer() {
           <h3>{year}</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Ramzeta.zip</h3>
+          <h3>Ramzeta</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/ramzeta.zip/"
+                href="https://www.instagram.com/ramzeta.tsx/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
