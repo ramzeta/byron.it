@@ -25,9 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={byronchat}
               isBlog={false}
-              title="Byron Chat"
-              description="Chat with google authentication, with just one step you can start chatting. You can create your own room and customize it."
-              ghLink="https://github.com/ramzeta/byron-chat"
+              title="Byron SIEM"
+              description="Docker Compose configuration for the Services Stack of a SIEM."
+              ghLink="https://github.com/ramzeta/siem-sistem"
             />
           </Col>
           <Col md={4} className="project-card">
