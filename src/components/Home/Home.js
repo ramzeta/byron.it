@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
@@ -8,6 +8,8 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
+      {<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4690911787953538"
+     crossorigin="anonymous"></script>}
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
