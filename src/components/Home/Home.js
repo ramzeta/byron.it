@@ -8,8 +8,6 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
-      {<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4690911787953538"
-     crossorigin="anonymous"></script>}
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
